@@ -1,10 +1,8 @@
 # MauroLandivar.github.io
 My personal Webpage
 <html>
-
-
 <head>
-	<title> Mauro Landivar </title>
+	<title>Mauro Landivar</title>
 </head>
 
 
