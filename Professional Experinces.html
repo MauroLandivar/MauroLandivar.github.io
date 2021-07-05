@@ -37,7 +37,10 @@
 	}
 	
 	.button1:hover {
-	  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	  transform: scale(1.2);
+	  background-image:
+			 linear-gradient(to right,#fdb525, #FFFFAA  );
+ /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	}
 	</style>
 
@@ -66,48 +69,50 @@
 <body>
 
 <!---Header-->
-<header class="section-header" style="overflow: hidden;">
-	<section class="border-bottom" >
-	<nav class="navbar navbar-main navbar-expand-lg navbar-light" id="navbar_top" style="background: #A5C1F8 0% 0% no-repeat padding-box; overflow: hidden;">
-	  <div class="container-fluid">
-		  <a class="navbar-brand"  ><img src="media/Logo.svg" class="logo"></a>
+<header class="section-header">
+	<section class="border-bottom" style="overflow:hidden; padding: 0%;" >
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light"   id="navbar_top" style=" background: #A5C1F8 0% 0% no-repeat padding-box; overflow: hidden;">
+	
+		<a class="navbar-brand"  ><img src="media/Logo.svg" class="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav1" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
+		<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="main_nav1">
 			<ul class="navbar-nav mr-auto" >
 				<li class="nav-item">
-				  <a class="nav-link" href="index.html" style="color: white; margin-left: 80px;">Home </a>
+				<a class="nav-link" href="index.html" style="color: white; margin-left: 80px;">Home </a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="https://My life.html" style="color: white; margin-left: 80px;">My Life</a>
+				<a class="nav-link" href="My life.html" style="color: white; margin-left: 80px;">My Life</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="https://Professional Experinces.html" style="color: white; margin-left: 80px;">Professional Experience</a>
+				<a class="nav-link" href="Professional Experinces.html" style="color: white; margin-left: 80px;">Professional Experience</a>
 				</li>
-			  </ul>
-		   <div class="widgets-wrap d-none d-md-block">
+			</ul>
+		<div class="widgets-wrap d-none d-md-block">
 				<ul class="navbar-nav mr-auto" >
 					<li class="nav-item">
-					  <a class="nav-link" href="www.facebook.com/mauro.landivar" style="color: white;  margin-right: 80px;"> Facebook </a>
+					<a class="nav-link" href="https://www.facebook.com/mauro.landivar" style="color: white;  margin-right: 80px;"> Facebook </a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="www.linkedin.com/in/maurolandivar" style="color: white; margin-right: 80px;">LinkedIn</a>
+					<a class="nav-link" href="https://www.linkedin.com/in/maurolandivar" style="color: white; margin-right: 80px;">LinkedIn</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="mailto: mauro@landivarparada.com" style="color: white;">E-mail</a>
+					<a class="nav-link" href="mailto: mauro@landivarparada.com" style="color: white;">E-mail</a>
 					</li>
-				  </ul>
-		  </div> <!-- widgets-wrap.// -->
+				</ul>
+		</div> <!-- widgets-wrap.// -->
 		</div> <!-- collapse .// -->
-	  </div> <!-- container .// -->
+
 	</nav>
 	</section> <!-- header-main .// -->
 	</header> <!-- section-header.// -->
 	<!-- section-header.// -->
+<div class="container-fluid" style="overflow: hidden;">
+	<!-- section-header.// -->
 	<!-- ========================= My Life Description ========================= -->
 	<div class="row">
-							<div class="col-md-12 text-center " style="background: transparent linear-gradient(180deg, #ABC7FF 0%, #3F75E2 100%) 0% 0% no-repeat padding-box;   border-radius: 1%; box-shadow: 0px 3px 6px #00000029;">
+							<div class="col-md-12 text-center " style="background: transparent linear-gradient(180deg, #ABC7FF 0%, #3F75E2 100%) 0% 0% no-repeat padding-box;   box-shadow: 0px 3px 6px #00000029;">
 								<p style="color: #011742; font-size: 80px;font-family: noto sans jp;" class="d-none d-sm-block"><b>Professional experiences</b></p>
 								<p style="color: #011742; font-size: 60px;font-family: noto sans jp;" class="d-block d-sm-none"><b>Professional experiences</b></p>
 								<p style="color: #011742; font-size: 25px;font-family: noto sans jp;"><b>Companies I worked in</b></p>
@@ -202,12 +207,12 @@
 									<div class="col-md-2 col-sm-2 col-xs-2"></div>
 									<div class="col-md-2 col-sm-2 col-xs-2 text-center">
 										<div class="icontext mt-5 ">
-											<a  >
+										
 											<img class="icon icon-lg rounded-circle" style="width: 134px; height: 134px;" src="media/New folder/Alien.png">
 											</div> <!-- iconbox // -->
 											<div>
 												<p style="font-family: Noto sans JP ; font-size: 25px; color: #011742; font-style: normal; font-weight: normal;" >Alien Store<br> Founder/Owner <br>1 month <br>2021</p>
-												<button class="button1 btn mb-4 text-white" >More</button>
+												<a  href="https://www.instagram.com/alienstorebolivia/">	<button class="button1 btn mb-4 text-white" >More</button>
 											</a>
 										</div>
 									</div>
@@ -236,7 +241,7 @@
 									</div>
 								</div>
 
-								<!-- ========================= Companies I createdEND ========================= -->
+</div>								<!-- ========================= Companies I createdEND ========================= -->
 <!-- ========================= FOOTER ========================= -->
 <footer class="section-footer border-top mt-5" style="background: transparent linear-gradient(180deg, #ABC7FF 0%, #3F75E2 100%) 0% 0% no-repeat padding-box; opacity: 0.65;">
 	<div class="container-fluid">
